@@ -5,7 +5,6 @@ const router = jsonServer.router("db.json");
 
 // Make sure to use the default middleware
 const middlewares = jsonServer.defaults();
-
 server.use(middlewares);
 // Add this before server.use(router)
 server.use(
